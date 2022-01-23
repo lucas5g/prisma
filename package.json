@@ -1,0 +1,32 @@
+{
+  "name": "prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas5g/prisma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas5g/prisma/issues"
+  },
+  "homepage": "https://github.com/lucas5g/prisma#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.10",
+    "prisma": "^3.8.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@prisma/client": "3.8.1",
+    "express": "^4.17.2"
+  }
+}
